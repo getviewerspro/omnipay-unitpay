@@ -6,8 +6,8 @@ use Omnipay\Common\Message\AbstractRequest as OmnipayRequest;
 
 abstract class AbstractRequest extends OmnipayRequest
 {
-    protected $liveEndpoint = 'https://unitpay.ru/pay';
-    protected $testEndpoint = 'https://unitpay.ru/pay';
+    protected $liveEndpoint = 'https://unitpay.money/pay';
+    protected $testEndpoint = 'https://unitpay.money/pay';
 
     public function getEndpoint()
     {
